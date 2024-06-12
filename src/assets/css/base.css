@@ -3720,6 +3720,17 @@ select.input-sm {
   letter-spacing: 1px;
   overflow: hidden;
 }
+.btn-2 {
+  height: 40px;
+  padding: 8px 20px;
+  border: 2px solid transparent;
+  font-size: 13px;
+  line-height: 20px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  overflow: hidden;
+}
 .btn:active,
 .btn.active,
 .btn:focus {
@@ -3770,6 +3781,10 @@ fieldset[disabled] .btn {
   background-color: #2FA5EB;
   color: #fff;
 }
+.btn-2 {
+  background-color: #1f2524;
+  color: #fff;
+}
 .btn.btn-link,
 .btn.btn-o {
   color: #2FA5EB;
@@ -3787,6 +3802,17 @@ fieldset[disabled] .btn {
   color: #fff;
   background-color: #288CC8;
   border-color: #288CC8;
+  
+}
+.btn-2:hover,
+.btn-2.hover,
+.btn-2:focus,
+.btn-2.focus,
+.btn-2:active,
+.btn-2.active {
+  color: #fff;
+  background-color: #000000;
+  border-color: #000000;
   
 }
 .btn.btn-link:hover,
